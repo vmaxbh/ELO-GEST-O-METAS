@@ -9,6 +9,6 @@
   "author": "Maxwell Viana QA",
   "license": "ISC",
   "devDependencies": {
-    
+    "cypress": "^13.6.2"
   }
 }
