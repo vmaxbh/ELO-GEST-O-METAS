@@ -10,7 +10,7 @@ describe('Confirmação de Hierarquia CEO', () => {
     });
 });
 
-describe.only('Confirmação de Hierarquia Diretor de TI', () => {
+describe('Confirmação de Hierarquia Diretor de TI', () => {
     beforeEach(() => {
         cy.loginDiretordeTI()
         cy.desdobramentoFuncional()
