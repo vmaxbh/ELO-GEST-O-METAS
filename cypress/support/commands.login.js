@@ -638,7 +638,7 @@ Cypress.Commands.add('loginCoordenadordeMarketingC', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordeMarketingD', (username = Cypress.env('USERNAME_COORDENADOR_A_DE_MARKETINGD'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeMarketingD', (username = Cypress.env('USERNAME_COORDENADOR_A_DEMARKETINGD'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
