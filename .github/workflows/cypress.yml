@@ -101,5 +101,5 @@ jobs:
             CYPRESS_USERNAME_GERENTEDETI: ${{ secrets.CYPRESS_USERNAME_GERENTEDETI }}
                  
         with:
-          command: npm run test  
+          command: npx cypress run --record --key 4d8d066b-4f40-42e3-ae94-eb8255f4bbd1 
           
