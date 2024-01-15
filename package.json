@@ -4,7 +4,12 @@
   "description": "Modelagem de padrão de projeto para testes utilizando as melhores praticas ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "test:cloud": "cypress run --record",
+    "cy:login": "cypress run --record --spec cypress/e2e/login.cy.js"
   },
   "author": "Maxwell Viana QA",
   "license": "ISC",
