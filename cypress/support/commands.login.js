@@ -1,4 +1,4 @@
-Cypress.Commands.add('loginCEO', (username = Cypress.env('USERNAME-CEO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCEO', (username = Cypress.env('USERNAME_CEO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -8,7 +8,7 @@ Cypress.Commands.add('loginCEO', (username = Cypress.env('USERNAME-CEO'), passwo
     
 });
 
-Cypress.Commands.add('loginVicePresitente', (username = Cypress.env('USERNAME-VICEPRESIDENTE'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginVicePresitente', (username = Cypress.env('USERNAME_VICEPRESIDENTE'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -18,7 +18,7 @@ Cypress.Commands.add('loginVicePresitente', (username = Cypress.env('USERNAME-VI
     
 });
 
-Cypress.Commands.add('loginDiretorCRA', (username = Cypress.env('USERNAME-DIRETORCRA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorCRA', (username = Cypress.env('USERNAME_DIRETORCRA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -28,7 +28,7 @@ Cypress.Commands.add('loginDiretorCRA', (username = Cypress.env('USERNAME-DIRETO
     
 });
 
-Cypress.Commands.add('loginDiretorAdmissãoaoDesligamento', (username = Cypress.env('USERNAME-DIRETORADMISSAOAODESLIGAMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorAdmissãoaoDesligamento', (username = Cypress.env('USERNAME_DIRETORADMISSAOAODESLIGAMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -38,7 +38,7 @@ Cypress.Commands.add('loginDiretorAdmissãoaoDesligamento', (username = Cypress.
     
 });
 
-Cypress.Commands.add('loginDiretorAdjdeServicosFinanceiros', (username = Cypress.env('USERNAME-DIRETORADJDESERVICOSFINANCEIROS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorAdjdeServicosFinanceiros', (username = Cypress.env('USERNAME_DIRETORADJDESERVICOSFINANCEIROS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -48,7 +48,7 @@ Cypress.Commands.add('loginDiretorAdjdeServicosFinanceiros', (username = Cypress
     
 });
 
-Cypress.Commands.add('loginDiretorAdjdeFechamentoAoReporte', (username = Cypress.env('USERNAME-DIRETORADJDEFECHAMENTOAOREPORTE'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorAdjdeFechamentoAoReporte', (username = Cypress.env('USERNAME_DIRETORADJDEFECHAMENTOAOREPORTE'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -58,7 +58,7 @@ Cypress.Commands.add('loginDiretorAdjdeFechamentoAoReporte', (username = Cypress
     
 });
 
-Cypress.Commands.add('loginDiretorJuridico', (username = Cypress.env('USERNAME-DIRETOR-A-JURIDICO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorJuridico', (username = Cypress.env('USERNAME_DIRETOR_A_JURIDICO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -68,7 +68,7 @@ Cypress.Commands.add('loginDiretorJuridico', (username = Cypress.env('USERNAME-D
     
 });
 
-Cypress.Commands.add('loginDiretordeMarketing', (username = Cypress.env('USERNAME-DIRETOR-A-DEMARKETING'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretordeMarketing', (username = Cypress.env('USERNAME_DIRETOR_A_DEMARKETING'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -78,7 +78,7 @@ Cypress.Commands.add('loginDiretordeMarketing', (username = Cypress.env('USERNAM
     
 });
 
-Cypress.Commands.add('loginDiretordeTI', (username = Cypress.env('USERNAME-DIRETOR-A-DETI'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretordeTI', (username = Cypress.env('USERNAME_DIRETOR_A_DETI'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -88,7 +88,7 @@ Cypress.Commands.add('loginDiretordeTI', (username = Cypress.env('USERNAME-DIRET
     
 });
 
-Cypress.Commands.add('loginDiretorEAD', (username = Cypress.env('USERNAME-DIRETOREAD'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorEAD', (username = Cypress.env('USERNAME_DIRETOREAD'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -98,7 +98,7 @@ Cypress.Commands.add('loginDiretorEAD', (username = Cypress.env('USERNAME-DIRETO
     
 });
 
-Cypress.Commands.add('loginDiretordeOperacoesAcademicas', (username = Cypress.env('USERNAME-DIRETORDEOPERACOESACADEMICAS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretordeOperacoesAcademicas', (username = Cypress.env('USERNAME_DIRETORDEOPERACOESACADEMICAS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -108,7 +108,7 @@ Cypress.Commands.add('loginDiretordeOperacoesAcademicas', (username = Cypress.en
     
 });
 
-Cypress.Commands.add('loginDiretordeProgramasEstudantis', (username = Cypress.env('USERNAME-DIRETORDEPROGRAMASESTUDANTIS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretordeProgramasEstudantis', (username = Cypress.env('USERNAME_DIRETORDEPROGRAMASESTUDANTIS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -118,7 +118,7 @@ Cypress.Commands.add('loginDiretordeProgramasEstudantis', (username = Cypress.en
     
 });
 
-Cypress.Commands.add('loginDiretordeRegulacao', (username = Cypress.env('USERNAME-DIRETORDEREGULACAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretordeRegulacao', (username = Cypress.env('USERNAME_DIRETORDEREGULACAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -128,7 +128,7 @@ Cypress.Commands.add('loginDiretordeRegulacao', (username = Cypress.env('USERNAM
     
 });
 
-Cypress.Commands.add('loginDiretorAdjdeRegulacaoPesquisaeExtensao', (username = Cypress.env('USERNAME-DIRETORADJDEREGULACAOPESQUISAEEXTENSAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretorAdjdeRegulacaoPesquisaeExtensao', (username = Cypress.env('USERNAME_DIRETORADJDEREGULACAOPESQUISAEEXTENSAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -138,7 +138,7 @@ Cypress.Commands.add('loginDiretorAdjdeRegulacaoPesquisaeExtensao', (username = 
     
 });
 
-Cypress.Commands.add('loginCFO', (username = Cypress.env('USERNAME-CFO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCFO', (username = Cypress.env('USERNAME_CFO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -148,7 +148,7 @@ Cypress.Commands.add('loginCFO', (username = Cypress.env('USERNAME-CFO'), passwo
     
 });
 
-Cypress.Commands.add('loginDiretoraAdministrativa', (username = Cypress.env('USERNAME-DIRETORAADMINISTRATIVA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretoraAdministrativa', (username = Cypress.env('USERNAME_DIRETORAADMINISTRATIVA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -158,7 +158,7 @@ Cypress.Commands.add('loginDiretoraAdministrativa', (username = Cypress.env('USE
     
 });
 
-Cypress.Commands.add('loginDiretordeRecursosHumanos', (username = Cypress.env('USERNAME-DIRETOR-A-DERECURSOSHUMANOS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretordeRecursosHumanos', (username = Cypress.env('USERNAME_DIRETOR_A_DERECURSOSHUMANOS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -168,7 +168,7 @@ Cypress.Commands.add('loginDiretordeRecursosHumanos', (username = Cypress.env('U
     
 });
 
-Cypress.Commands.add('loginGerentedeProcessamento', (username = Cypress.env('USERNAME-GERENTEDEPROCESSAMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeProcessamento', (username = Cypress.env('USERNAME_GERENTEDEPROCESSAMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -178,7 +178,7 @@ Cypress.Commands.add('loginGerentedeProcessamento', (username = Cypress.env('USE
     
 });
 
-Cypress.Commands.add('loginGerentedeAtendimento', (username = Cypress.env('USERNAME-GERENTEDEATENDIMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeAtendimento', (username = Cypress.env('USERNAME_GERENTEDEATENDIMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -188,7 +188,7 @@ Cypress.Commands.add('loginGerentedeAtendimento', (username = Cypress.env('USERN
     
 });
 
-Cypress.Commands.add('loginGerenteA', (username = Cypress.env('USERNAME-GERENTEA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteA', (username = Cypress.env('USERNAME_GERENTEA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -198,7 +198,7 @@ Cypress.Commands.add('loginGerenteA', (username = Cypress.env('USERNAME-GERENTEA
     
 });
 
-Cypress.Commands.add('loginGerenteB', (username = Cypress.env('USERNAME-GERENTEB'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteB', (username = Cypress.env('USERNAME_GERENTEB'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -208,7 +208,7 @@ Cypress.Commands.add('loginGerenteB', (username = Cypress.env('USERNAME-GERENTEB
     
 });
 
-Cypress.Commands.add('loginGerentedeRecursosFinanceiros', (username = Cypress.env('USERNAME-GERENTEDERECURSOSFINANCEIROS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeRecursosFinanceiros', (username = Cypress.env('USERNAME_GERENTEDERECURSOSFINANCEIROS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -218,7 +218,7 @@ Cypress.Commands.add('loginGerentedeRecursosFinanceiros', (username = Cypress.en
     
 });
 
-Cypress.Commands.add('GerentedeTesouraria', (username = Cypress.env('USERNAME-GERENTEDETESOURARIA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('GerentedeTesouraria', (username = Cypress.env('USERNAME_GERENTEDETESOURARIA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -228,7 +228,7 @@ Cypress.Commands.add('GerentedeTesouraria', (username = Cypress.env('USERNAME-GE
     
 });
 
-Cypress.Commands.add('loginGerentedeFaturamentoAoRecebimento', (username = Cypress.env('USERNAME-GERENTEDEFATURAMENTOAORECEBIMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeFaturamentoAoRecebimento', (username = Cypress.env('USERNAME_GERENTEDEFATURAMENTOAORECEBIMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -238,7 +238,7 @@ Cypress.Commands.add('loginGerentedeFaturamentoAoRecebimento', (username = Cypre
     
 });
 
-Cypress.Commands.add('loginGerentedeNegociacaoFinanceira', (username = Cypress.env('USERNAME-GERENTEDENEGOCIACAOFINANCEIRA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeNegociacaoFinanceira', (username = Cypress.env('USERNAME_GERENTEDENEGOCIACAOFINANCEIRA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -248,7 +248,7 @@ Cypress.Commands.add('loginGerentedeNegociacaoFinanceira', (username = Cypress.e
     
 });
 
-Cypress.Commands.add('loginGerenteAdministrativoCorporativo', (username = Cypress.env('USERNAME-GERENTEADMINISTRATIVOCORPORATIVO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteAdministrativoCorporativo', (username = Cypress.env('USERNAME_GERENTEADMINISTRATIVOCORPORATIVO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -258,7 +258,7 @@ Cypress.Commands.add('loginGerenteAdministrativoCorporativo', (username = Cypres
     
 });
 
-Cypress.Commands.add('loginGerentedeManutencao', (username = Cypress.env('USERNAME-GERENTEDEMANUTENCAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeManutencao', (username = Cypress.env('USERNAME_GERENTEDEMANUTENCAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -268,7 +268,7 @@ Cypress.Commands.add('loginGerentedeManutencao', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginGerenteJuridicoA', (username = Cypress.env('USERNAME-GERENTEJURIDICOA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteJuridicoA', (username = Cypress.env('USERNAME_GERENTEJURIDICOA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -278,7 +278,7 @@ Cypress.Commands.add('loginGerenteJuridicoA', (username = Cypress.env('USERNAME-
     
 });
 
-Cypress.Commands.add('loginGerenteJuridicoB', (username = Cypress.env('USERNAME-GERENTEJURIDICOB'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteJuridicoB', (username = Cypress.env('USERNAME_GERENTEJURIDICOB'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -288,7 +288,7 @@ Cypress.Commands.add('loginGerenteJuridicoB', (username = Cypress.env('USERNAME-
     
 });
 
-Cypress.Commands.add('loginGerentedeRecursosHumanosA', (username = Cypress.env('USERNAME-GERENTEDERECURSOSHUMANOSA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeRecursosHumanosA', (username = Cypress.env('USERNAME_GERENTEDERECURSOSHUMANOSA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -298,7 +298,7 @@ Cypress.Commands.add('loginGerentedeRecursosHumanosA', (username = Cypress.env('
     
 });
 
-Cypress.Commands.add('loginGerentedeRecursosHumanosB', (username = Cypress.env('USERNAME-GERENTEDERECURSOSHUMANOSB'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeRecursosHumanosB', (username = Cypress.env('USERNAME_GERENTEDERECURSOSHUMANOSB'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -308,7 +308,7 @@ Cypress.Commands.add('loginGerentedeRecursosHumanosB', (username = Cypress.env('
     
 });
 
-Cypress.Commands.add('loginGerenteComercial', (username = Cypress.env('USERNAME-GERENTECOMERCIAL'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteComercial', (username = Cypress.env('USERNAME_GERENTECOMERCIAL'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -318,7 +318,7 @@ Cypress.Commands.add('loginGerenteComercial', (username = Cypress.env('USERNAME-
     
 });
 
-Cypress.Commands.add('loginGerentedeTelevendas', (username = Cypress.env('USERNAME-GERENTEDETELEVENDAS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeTelevendas', (username = Cypress.env('USERNAME_GERENTEDETELEVENDAS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -328,7 +328,7 @@ Cypress.Commands.add('loginGerentedeTelevendas', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginGerentedeMarketing', (username = Cypress.env('USERNAME-GERENTEDEMARKETING'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeMarketing', (username = Cypress.env('USERNAME_GERENTEDEMARKETING'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -338,7 +338,7 @@ Cypress.Commands.add('loginGerentedeMarketing', (username = Cypress.env('USERNAM
     
 });
 
-Cypress.Commands.add('loginGerentedeIntegracao', (username = Cypress.env('USERNAME-GERENTEDEINTEGRACAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeIntegracao', (username = Cypress.env('USERNAME_GERENTEDEINTEGRACAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -348,7 +348,7 @@ Cypress.Commands.add('loginGerentedeIntegracao', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginGerenteAdjuntodeIntegracao', (username = Cypress.env('USERNAME-GERENTEADJUNTODEINTEGRACAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteAdjuntodeIntegracao', (username = Cypress.env('USERNAME_GERENTEADJUNTODEINTEGRACAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -358,7 +358,7 @@ Cypress.Commands.add('loginGerenteAdjuntodeIntegracao', (username = Cypress.env(
     
 });
 
-Cypress.Commands.add('loginGerentedeNegocios', (username = Cypress.env('USERNAME-GERENTEDENEGOCIOS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeNegocios', (username = Cypress.env('USERNAME_GERENTEDENEGOCIOS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -368,7 +368,7 @@ Cypress.Commands.add('loginGerentedeNegocios', (username = Cypress.env('USERNAME
     
 });
 
-Cypress.Commands.add('loginGerenteAdjdeNegocios', (username = Cypress.env('USERNAME-GERENTEADJDENEGOCIOS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteAdjdeNegocios', (username = Cypress.env('USERNAME_GERENTEADJDENEGOCIOS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -378,7 +378,7 @@ Cypress.Commands.add('loginGerenteAdjdeNegocios', (username = Cypress.env('USERN
     
 });
 
-Cypress.Commands.add('loginGerentedeServicos', (username = Cypress.env('USERNAME-GERENTEDESERVIÇOS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeServicos', (username = Cypress.env('USERNAME_GERENTEDESERVICOS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -388,7 +388,7 @@ Cypress.Commands.add('loginGerentedeServicos', (username = Cypress.env('USERNAME
     
 });
 
-Cypress.Commands.add('loginGerenteCX', (username = Cypress.env('USERNAME-GERENTECX'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteCX', (username = Cypress.env('USERNAME_GERENTECX'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -398,7 +398,7 @@ Cypress.Commands.add('loginGerenteCX', (username = Cypress.env('USERNAME-GERENTE
     
 });
 
-Cypress.Commands.add('loginGerenteEAD', (username = Cypress.env('USERNAME-GERENTEEAD'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerenteEAD', (username = Cypress.env('USERNAME_GERENTEEAD'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -408,7 +408,7 @@ Cypress.Commands.add('loginGerenteEAD', (username = Cypress.env('USERNAME-GERENT
     
 });
 
-Cypress.Commands.add('loginGerentedeDesignInstrucional', (username = Cypress.env('USERNAME-GERENTEDEDESIGNINSTRUCIONAL'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeDesignInstrucional', (username = Cypress.env('USERNAME_GERENTEDEDESIGNINSTRUCIONAL'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -418,7 +418,7 @@ Cypress.Commands.add('loginGerentedeDesignInstrucional', (username = Cypress.env
     
 });
 
-Cypress.Commands.add('loginGerentedeOperacoes', (username = Cypress.env('USERNAME-GERENTEDEOPERACOES'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeOperacoes', (username = Cypress.env('USERNAME_GERENTEDEOPERACOES'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -428,7 +428,7 @@ Cypress.Commands.add('loginGerentedeOperacoes', (username = Cypress.env('USERNAM
     
 });
 
-Cypress.Commands.add('loginCoordenadordeMatricula', (username = Cypress.env('USERNAME-COORDENADORDEMATRICULA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeMatricula', (username = Cypress.env('USERNAME_COORDENADORDEMATRICULA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -438,7 +438,7 @@ Cypress.Commands.add('loginCoordenadordeMatricula', (username = Cypress.env('USE
     
 });
 
-Cypress.Commands.add('loginCoordenadoradeProcessamento', (username = Cypress.env('USERNAME-COORDENADORADEPROCESSAMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadoradeProcessamento', (username = Cypress.env('USERNAME_COORDENADORADEPROCESSAMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -448,7 +448,7 @@ Cypress.Commands.add('loginCoordenadoradeProcessamento', (username = Cypress.env
     
 });
 
-Cypress.Commands.add('loginCoordenadorAdmissaodePessoal', (username = Cypress.env('USERNAME-COORDENADORADMISSAODEPESSOAL'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorAdmissaodePessoal', (username = Cypress.env('USERNAME_COORDENADORADMISSAODEPESSOAL'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -458,7 +458,7 @@ Cypress.Commands.add('loginCoordenadorAdmissaodePessoal', (username = Cypress.en
     
 });
 
-Cypress.Commands.add('loginCoordenadoradeCompras', (username = Cypress.env('USERNAME-COORDENADORADECOMPRAS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadoradeCompras', (username = Cypress.env('USERNAME_COORDENADORADECOMPRAS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -468,7 +468,7 @@ Cypress.Commands.add('loginCoordenadoradeCompras', (username = Cypress.env('USER
     
 });
 
-Cypress.Commands.add('loginCoordenadordeContasaPagar', (username = Cypress.env('USERNAME-COORDENADOR-A-DECONTASAPAGAR'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeContasaPagar', (username = Cypress.env('USERNAME_COORDENADOR_A_DECONTASAPAGAR'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -478,7 +478,7 @@ Cypress.Commands.add('loginCoordenadordeContasaPagar', (username = Cypress.env('
     
 });
 
-Cypress.Commands.add('loginCoordenadorBacOfficeTesouraria', (username = Cypress.env('USERNAME-COORDENADOR-A-BACKOFFICETESOURARIA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorBacOfficeTesouraria', (username = Cypress.env('USERNAME_COORDENADOR_A_BACKOFFICETESOURARIA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -488,7 +488,7 @@ Cypress.Commands.add('loginCoordenadorBacOfficeTesouraria', (username = Cypress.
     
 });
 
-Cypress.Commands.add('loginCoordenadorFiscal', (username = Cypress.env('USERNAME-COORDENADOR-A-FISCAL'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorFiscal', (username = Cypress.env('USERNAME_COORDENADOR_A_FISCAL'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -498,7 +498,7 @@ Cypress.Commands.add('loginCoordenadorFiscal', (username = Cypress.env('USERNAME
     
 });
 
-Cypress.Commands.add('loginCoordenadorContabilA', (username = Cypress.env('USERNAME-COORDENADOR-A-CONTABILA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorContabilA', (username = Cypress.env('USERNAME_COORDENADOR_A_CONTABILA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -508,7 +508,7 @@ Cypress.Commands.add('loginCoordenadorContabilA', (username = Cypress.env('USERN
     
 });
 
-Cypress.Commands.add('loginCoordenadorContabilB', (username = Cypress.env('USERNAME-COORDENADOR-A-CONTABILB'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorContabilB', (username = Cypress.env('USERNAME_COORDENADOR_A_CONTABILB'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -518,7 +518,7 @@ Cypress.Commands.add('loginCoordenadorContabilB', (username = Cypress.env('USERN
     
 });
 
-Cypress.Commands.add('loginCoordenadordeControladoria', (username = Cypress.env('USERNAME-COORDENADOR-A-DECONTROLADORIA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeControladoria', (username = Cypress.env('USERNAME_COORDENADOR_A_DECONTROLADORIA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -528,7 +528,7 @@ Cypress.Commands.add('loginCoordenadordeControladoria', (username = Cypress.env(
     
 });
 
-Cypress.Commands.add('loginCoordenadordeFaturamento', (username = Cypress.env('USERNAME-COORDENADOR-A-DEFATURAMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeFaturamento', (username = Cypress.env('USERNAME_COORDENADOR_A_DEFATURAMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -538,7 +538,7 @@ Cypress.Commands.add('loginCoordenadordeFaturamento', (username = Cypress.env('U
     
 });
 
-Cypress.Commands.add('loginCoordenadordeContasaReceber', (username = Cypress.env('USERNAME-COORDENADOR-A-DECONTASARECEBER'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeContasaReceber', (username = Cypress.env('USERNAME_COORDENADOR_A_DECONTASARECEBER'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -548,7 +548,7 @@ Cypress.Commands.add('loginCoordenadordeContasaReceber', (username = Cypress.env
     
 });
 
-Cypress.Commands.add('loginCoordenadordeControledeCredito', (username = Cypress.env('USERNAME-COORDENADOR-A-DECONTROLEDECREDITO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeControledeCredito', (username = Cypress.env('USERNAME_COORDENADOR_A_DECONTROLEDECREDITO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -558,7 +558,7 @@ Cypress.Commands.add('loginCoordenadordeControledeCredito', (username = Cypress.
     
 });
 
-Cypress.Commands.add('loginCoordenadordePAS', (username = Cypress.env('USERNAME-COORDENADOR-A-DEP.A.S'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordePAS', (username = Cypress.env('USERNAME_COORDENADOR_A_DEPAS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -568,7 +568,7 @@ Cypress.Commands.add('loginCoordenadordePAS', (username = Cypress.env('USERNAME-
     
 });
 
-Cypress.Commands.add('loginCoordenadorJuridico', (username = Cypress.env('USERNAME-COORDENADOR-A-JURIDICO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorJuridico', (username = Cypress.env('USERNAME_COORDENADOR_A_JURIDICO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -578,7 +578,7 @@ Cypress.Commands.add('loginCoordenadorJuridico', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginCoordenadorRemuneracaoeBeneficios', (username = Cypress.env('USERNAME-COORDENADOR-A-REMUNERACAOEBENEFICIOS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorRemuneracaoeBeneficios', (username = Cypress.env('USERNAME_COORDENADOR_A_REMUNERACAOEBENEFICIOS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -588,7 +588,7 @@ Cypress.Commands.add('loginCoordenadorRemuneracaoeBeneficios', (username = Cypre
     
 });
 
-Cypress.Commands.add('loginCoordenadordeViagens', (username = Cypress.env('USERNAME-COORDENADOR-A-DEVIAGENS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeViagens', (username = Cypress.env('USERNAME_COORDENADOR_A_DEVIAGENS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -598,7 +598,7 @@ Cypress.Commands.add('loginCoordenadordeViagens', (username = Cypress.env('USERN
     
 });
 
-Cypress.Commands.add('loginCoordenadorPlanejVendas', (username = Cypress.env('USERNAME-COORDENADOR-A-PLANEJVENDAS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadorPlanejVendas', (username = Cypress.env('USERNAME_COORDENADOR_A_PLANEJVENDAS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -608,7 +608,7 @@ Cypress.Commands.add('loginCoordenadorPlanejVendas', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordeMarketingA', (username = Cypress.env('USERNAME-COORDENADOR-A-DEMARKETINGA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeMarketingA', (username = Cypress.env('USERNAME_COORDENADOR_A_DEMARKETINGA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -618,7 +618,7 @@ Cypress.Commands.add('loginCoordenadordeMarketingA', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordeMarketingB', (username = Cypress.env('USERNAME-COORDENADOR-A-DEMARKETINGB'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeMarketingB', (username = Cypress.env('USERNAME_COORDENADOR_A_DEMARKETINGB'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -628,7 +628,7 @@ Cypress.Commands.add('loginCoordenadordeMarketingB', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordeMarketingC', (username = Cypress.env('USERNAME-COORDENADOR-A-DEMARKETINGC'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeMarketingC', (username = Cypress.env('USERNAME_COORDENADOR_A_DEMARKETINGC'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -638,7 +638,7 @@ Cypress.Commands.add('loginCoordenadordeMarketingC', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordeMarketingD', (username = Cypress.env('USERNAME-COORDENADOR-A-DEMARKETINGD'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeMarketingD', (username = Cypress.env('USERNAME_COORDENADOR_A_DE_MARKETINGD'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -648,7 +648,7 @@ Cypress.Commands.add('loginCoordenadordeMarketingD', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordeCompliance', (username = Cypress.env('USERNAME-COORDENADOR-A-DECOMPLIANCE'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordeCompliance', (username = Cypress.env('USERNAME_COORDENADOR_A_DECOMPLIANCE'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -658,7 +658,7 @@ Cypress.Commands.add('loginCoordenadordeCompliance', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginCoordenadordePerformance', (username = Cypress.env('USERNAME-COORDENADORDEPERFORMANCE'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginCoordenadordePerformance', (username = Cypress.env('USERNAME_COORDENADORDEPERFORMANCE'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -668,7 +668,7 @@ Cypress.Commands.add('loginCoordenadordePerformance', (username = Cypress.env('U
     
 });
 
-Cypress.Commands.add('loginSupervisoraFolhaeRemuneracao', (username = Cypress.env('USERNAME-SUPERVISORAFOLHAEREMUNERACAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisoraFolhaeRemuneracao', (username = Cypress.env('USERNAME_SUPERVISORAFOLHAEREMUNERACAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -678,7 +678,7 @@ Cypress.Commands.add('loginSupervisoraFolhaeRemuneracao', (username = Cypress.en
     
 });
 
-Cypress.Commands.add('loginSupervisorAdmissãoeDesligamento', (username = Cypress.env('USERNAME-SUPERVISORADMISSÃOEDESLIGAMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisorAdmissãoeDesligamento', (username = Cypress.env('USERNAME_SUPERVISORADMISSAOEDESLIGAMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -688,7 +688,7 @@ Cypress.Commands.add('loginSupervisorAdmissãoeDesligamento', (username = Cypres
     
 });
 
-Cypress.Commands.add('loginSupervisordaTesouraria', (username = Cypress.env('USERNAME-SUPERVISOR-A-DATESOURARIA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisordaTesouraria', (username = Cypress.env('USERNAME_SUPERVISOR_A_DATESOURARIA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -698,7 +698,7 @@ Cypress.Commands.add('loginSupervisordaTesouraria', (username = Cypress.env('USE
     
 });
 
-Cypress.Commands.add('loginSupervisordeConciliacao', (username = Cypress.env('USERNAME-SUPERVISOR-A-DECONCILIACAO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisordeConciliacao', (username = Cypress.env('USERNAME_SUPERVISOR_A_DECONCILIACAO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -708,7 +708,7 @@ Cypress.Commands.add('loginSupervisordeConciliacao', (username = Cypress.env('US
     
 });
 
-Cypress.Commands.add('loginSupervisorFaturamento', (username = Cypress.env('USERNAME-SUPERVISOR-A-FATURAMENTO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisorFaturamento', (username = Cypress.env('USERNAME_SUPERVISOR_A_FATURAMENTO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -718,7 +718,7 @@ Cypress.Commands.add('loginSupervisorFaturamento', (username = Cypress.env('USER
     
 });
 
-Cypress.Commands.add('loginSupervisordeControledeCredito', (username = Cypress.env('USERNAME-SUPERVISOR-A-DECONTROLEDECREDITO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisordeControledeCredito', (username = Cypress.env('USERNAME_SUPERVISOR_A_DECONTROLEDECREDITO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -728,7 +728,7 @@ Cypress.Commands.add('loginSupervisordeControledeCredito', (username = Cypress.e
     
 });
 
-Cypress.Commands.add('loginSupervisorAcademico', (username = Cypress.env('USERNAME-SUPERVISOR-A-ACADEMICO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisorAcademico', (username = Cypress.env('USERNAME_SUPERVISOR_A_ACADEMICO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -738,7 +738,7 @@ Cypress.Commands.add('loginSupervisorAcademico', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginSupervisorAdministrativoFinanceiro', (username = Cypress.env('USERNAME-SUPERVISOR-A-ADMINISTRATIVOFINANCEIRO'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisorAdministrativoFinanceiro', (username = Cypress.env('USERNAME_SUPERVISOR_A_ADMINISTRATIVOFINANCEIRO'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -748,7 +748,7 @@ Cypress.Commands.add('loginSupervisorAdministrativoFinanceiro', (username = Cypr
     
 });
 
-Cypress.Commands.add('loginSupervisordeSeguranca', (username = Cypress.env('USERNAME-SUPERVISOR-A-DESEGURANCA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisordeSeguranca', (username = Cypress.env('USERNAME_SUPERVISOR_A_DESEGURANCA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -758,7 +758,7 @@ Cypress.Commands.add('loginSupervisordeSeguranca', (username = Cypress.env('USER
     
 });
 
-Cypress.Commands.add('loginSupervisordeViagens', (username = Cypress.env('USERNAME-SUPERVISOR-A-DEVIAGENS'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisordeViagens', (username = Cypress.env('USERNAME_SUPERVISOR_A_DEVIAGENS'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -768,7 +768,7 @@ Cypress.Commands.add('loginSupervisordeViagens', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginSupervisorComercial', (username = Cypress.env('USERNAME-SUPERVISOR-A-COMERCIAL'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginSupervisorComercial', (username = Cypress.env('USERNAME_SUPERVISOR_A_COMERCIAL'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -778,7 +778,7 @@ Cypress.Commands.add('loginSupervisorComercial', (username = Cypress.env('USERNA
     
 });
 
-Cypress.Commands.add('loginDiretoradaSecretaria', (username = Cypress.env('USERNAME-DIRETORADASECRETARIA'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginDiretoradaSecretaria', (username = Cypress.env('USERNAME_DIRETORADASECRETARIA'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
@@ -788,7 +788,7 @@ Cypress.Commands.add('loginDiretoradaSecretaria', (username = Cypress.env('USERN
     
 });
 
-Cypress.Commands.add('loginGerentedeTI', (username = Cypress.env('USERNAME-GERENTEDETI'), password = Cypress.env('PASSWORD')) => {
+Cypress.Commands.add('loginGerentedeTI', (username = Cypress.env('USERNAME_GERENTEDETI'), password = Cypress.env('PASSWORD')) => {
     cy.visit('/')
     cy.get('.mat-mdc-form-field-infix').type(username)
     cy.contains('Prosseguir').click()
